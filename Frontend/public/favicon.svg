@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#0d3d36"/>
+  <!-- P letter mark -->
+  <text x="10" y="48" font-family="Arial Black, Arial" font-weight="900" font-size="46" fill="#b5e42a">P</text>
+  <!-- + mark -->
+  <text x="38" y="34" font-family="Arial Black, Arial" font-weight="900" font-size="22" fill="#ffffff">+</text>
+</svg>

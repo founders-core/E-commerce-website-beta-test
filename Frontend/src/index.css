@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; color: #0d3d36; }
+
+@layer base {
+  h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
+}
+@layer utilities {
+  .font-display { font-family: 'Manrope', sans-serif; }
+}
