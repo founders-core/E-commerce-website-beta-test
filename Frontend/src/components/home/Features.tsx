@@ -18,7 +18,7 @@ const features = [
       </svg>
     ),
     title: 'ISO Certified',
-    desc: 'We respect your time with planning and predictable project timelines.',
+    desc: 'Our ISO certification reflects our commitment to excellence and reliability in every project we undertake.',
   },
   {
     icon: (

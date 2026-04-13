@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const services = [
   {
     title: 'Construction & Sustainability Consultancy',
@@ -64,9 +66,11 @@ export default function ServicesList() {
                 ))}
               </div>
               <div>
-                <button className="bg-[#b5e42a] text-[#0d3d36] font-bold text-xs tracking-widest px-8 py-4 rounded-full hover:bg-[#9dca1a] hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200">
-                  ENQUIRE NOW
-                </button>
+                <Link to="/contact">
+                  <button className="bg-[#b5e42a] text-[#0d3d36] font-bold text-xs tracking-widest px-8 py-4 rounded-full hover:bg-[#9dca1a] hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200">
+                    ENQUIRE NOW
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

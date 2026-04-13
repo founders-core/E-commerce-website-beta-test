@@ -59,7 +59,7 @@ export default function Services() {
                 <div className="mb-4">{s.icon}</div>
                 <h3 className="font-display font-extrabold text-[#0d3d36] text-xl mb-3">{s.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed mb-5 flex-1">{s.desc}</p>
-                <Link to="/services" className="text-xs font-bold text-[#0d3d36] underline underline-offset-4 tracking-wide hover:text-[#b5e42a] transition-colors">
+                <Link to="/contact" className="text-xs font-bold text-[#0d3d36] underline underline-offset-4 tracking-wide hover:text-[#b5e42a] transition-colors">
                   ENQUIRE NOW
                 </Link>
               </div>

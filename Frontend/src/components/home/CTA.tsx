@@ -8,7 +8,7 @@ export default function CTA() {
         <div className="absolute inset-0" style={{ background: 'linear-gradient(160deg, rgba(3,10,9,0.75) 0%, rgba(10,46,41,0.60) 45%, rgba(13,61,54,0.55) 70%, rgba(4,16,14,0.70) 100%)' }}/>
         <div className="max-w-xl relative z-10">
           <h2 className="font-display font-extrabold text-white leading-[1.08] mb-4" style={{ fontSize: 'clamp(28px, 4vw, 52px)' }}>
-            Let's Build Your Dream Home.
+            Paving the future, plus more.
           </h2>
           <p className="text-white/75 text-[15px] leading-relaxed">
             Whether it's a new build, a remodel, or just an idea — we're here to help bring it to life. Let's talk and explore how Paving-plus can make it happen.

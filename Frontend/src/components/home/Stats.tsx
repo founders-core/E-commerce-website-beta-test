@@ -26,7 +26,7 @@ export default function Stats() {
           <div className="grid grid-cols-2 gap-8">
             {[
               { num: '100+', label: 'Successful Projects', sub: 'Delivering certified, sustainable, and high-performance infrastructure solutions across diverse sectors.' },
-              { num: '10+ Yrs.', label: 'Industry Expertise', sub: 'Decade-long experience in green building consultancy, certifications, and sustainable project execution.' },
+              { num: '5+ Yrs.', label: 'Industry Expertise', sub: 'Decade-long experience in green building consultancy, certifications, and sustainable project execution.' },
             ].map((s, i) => (
               <div key={i}>
                 <div
