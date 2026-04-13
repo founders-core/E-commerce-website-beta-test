@@ -10,7 +10,7 @@ dotenv.config({
 
 connectDB()
 .then(()=>{
-    app.listen(process.env.PORT || 3000, () => {
+    app.listen(process.env.PORT || 3001, () => {
         console.log(`App is listening on port ${process.env.PORT || 3000}`);
     })
     app.on("error",(error) =>{
