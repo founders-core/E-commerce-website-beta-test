@@ -17,8 +17,8 @@ const features = [
         <path d="M8 17l4 4 4-4" />
       </svg>
     ),
-    title: 'ISO Certified',
-    desc: 'Our ISO certification reflects our commitment to excellence and reliability in every project we undertake.',
+    title: 'Sustainable Practices',
+    desc: 'We prioritize environmentally responsible methods and materials in all our projects.',
   },
   {
     icon: (
