@@ -1,4 +1,4 @@
-# Brikly — Full Website
+#Full Website
 
 Complete multi-page construction website built with React + TypeScript + Tailwind CSS + React Router.
 
