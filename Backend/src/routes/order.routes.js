@@ -11,7 +11,7 @@ import {
 import { verifyJWT } from "../middlewares/auth.middleware.js";
 
 const router = Router()
-
+router.route("/export").get(exportOrders)    
 // all order routes require authentication
 router.use(verifyJWT)
 
