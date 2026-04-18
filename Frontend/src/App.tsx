@@ -12,6 +12,7 @@ import ContactPage from './pages/ContactPage'
 import TeamPage from './pages/TeamPage'
 import ProductPage from './pages/ProductPage'
 import BlogPage from './pages/BlogPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
       {!isStandalone && <Footer />}
     </div>

@@ -9,12 +9,13 @@ const navLinks = [
     { label: 'Our Team', to: '/team' },
   ]},
   { label: 'Services', to: '/services' },
+  { label: 'Projects', to: '/projects' },
   { label: 'Products', to: '/products' },
   { label: 'Contact', to: '/contact' },
 ]
 
 // Pages whose hero already has a dark background (navbar can start transparent)
-const DARK_HERO_PAGES = ['/', '/about', '/services', '/contact', '/team', '/products']
+const DARK_HERO_PAGES = ['/', '/about', '/services', '/contact', '/team', '/products', '/projects']
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)

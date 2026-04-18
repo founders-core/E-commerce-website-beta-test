@@ -150,36 +150,23 @@ export default function ProductPage() {
   }
   
   return (
-    <div className="min-h-screen bg-gray-50 pt-[80px]">
-      {/* Hero section (keep as is) */}
-      <div className="px-6 md:px-12 py-14 relative overflow-hidden" style={{ background: '#0a2e29' }}>
-        {/* ... hero content (same as before) ... */}
+    <div className="min-h-screen bg-gray-50">
+      {/* Hero */}
+      <div className="relative overflow-hidden" style={{ paddingTop: '80px', background: '#0a2e29' }}>
         <img src="/productimage.jpg" alt="" className="absolute inset-0 w-full h-full object-cover opacity-35" />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(160deg, rgba(3,10,9,0.75) 0%, rgba(10,46,41,0.60) 45%, rgba(13,61,54,0.55) 70%, rgba(4,16,14,0.70) 100%)' }}/>
-        <div className="max-w-6xl mx-auto relative z-10">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            <div>
-              <span className="inline-block bg-white/15 text-white text-xs font-bold tracking-[2px] px-5 py-2 rounded-full mb-4 border border-white/20">
-                SUSTAINABLE CONSTRUCTION MATERIALS
-              </span>
-              <h1 className="font-display font-extrabold text-white text-3xl md:text-5xl leading-tight mb-3">Our Products</h1>
-              <p className="text-white/65 text-sm md:text-base max-w-xl leading-relaxed">
-                High-quality construction materials engineered for durability and built with sustainability at the core.
-              </p>
-            </div>
-            <div className="flex gap-4 flex-wrap md:flex-nowrap md:flex-col md:items-end">
-              {[
-                [`${products.length}+`, 'Products'], 
-                ['100%', 'Quality'], 
-                ['ISO', 'Certified']
-              ].map(([n, l]) => (
-                <div key={l} className="bg-white/10 rounded-xl px-5 py-3 text-center min-w-[80px]">
-                  <div className="text-[#b5e42a] font-display font-extrabold text-xl">{n}</div>
-                  <div className="text-white/60 text-xs mt-0.5">{l}</div>
-                </div>
-              ))}
-            </div>
-          </div>
+        <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-16 text-center">
+          <h1 className="font-display font-extrabold text-white leading-[1.05] mb-4" style={{ fontSize: 'clamp(36px, 5vw, 68px)' }}>
+            Our Products
+          </h1>
+          <p className="text-white/70 text-lg max-w-xl mx-auto">
+            High-quality construction materials engineered for durability and built with sustainability at the core.
+          </p>
+        </div>
+        <div className="relative z-10">
+          <svg viewBox="0 0 1440 60" fill="none" className="w-full block">
+            <path d="M0 60H1440V15C1100 55 700 55 720 30C500 5 200 5 0 15V60Z" fill="#f9fafb"/>
+          </svg>
         </div>
       </div>
       

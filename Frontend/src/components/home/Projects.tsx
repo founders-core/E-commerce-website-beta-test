@@ -26,6 +26,15 @@ export default function Projects() {
               From high-end homes to modern office spaces, each Paving-plus project is a reflection of
               quality, detail, and dedication.
             </p>
+            <a
+              href="/projects"
+              className="inline-flex items-center gap-2 self-start bg-[#0d3d36] text-white font-bold px-6 py-3 rounded-full hover:bg-[#0a2e29] hover:scale-105 transition-all duration-200 text-sm"
+            >
+              View All Projects
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
           </div>
         </div>
 
